@@ -1,0 +1,48 @@
+.navbar-default {
+background-color: white;
+}
+
+
+.navbar-nav {
+padding-top: 50px;
+
+padding-bottom: 70px;
+}
+
+.navbar-brand {
+padding-top: 30px;
+
+padding-bottom: 55px;
+padding-left: 50px;
+
+ position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.navbar-right {
+
+padding-top: 60px;
+
+padding-bottom: 0px;
+}
+
+body {
+background-color: turquoise;
+color: black;
+}
+
+.webde{
+margin-top: 225px;
+text-align: center;
+float: left;
+color: black;
+font-size: 20px;
+font-family: 'Century Gothic';
+margin-left: 30px;
+margin-right: 500px;
+
+background-color:  white;
+
+}
