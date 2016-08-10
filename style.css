@@ -28,21 +28,73 @@ padding-top: 60px;
 padding-bottom: 0px;
 }
 
+
+#ah {
+
+margin-top: 200px;
+}
+
+
 body {
-background-color: turquoise;
+background-color: lightcyan;
 color: black;
 }
 
-.webde{
-margin-top: 225px;
+
+h1 {
+float: right;
+padding-right: 500px;
+padding-bottom: 50px;
+color: grey;
+font-family: 'Century Gothic';
+
+}
+
+
+#share-buttons {
+padding-right: 425px;
+float: right;
+
+}
+
+
+.webde {
+margin-top: 75px;
 text-align: center;
 float: left;
 color: black;
 font-size: 20px;
 font-family: 'Century Gothic';
-margin-left: 30px;
-margin-right: 500px;
-
+margin-left: 270px;
+margin-right: 350px;
+ border-style: solid;
+    border-width: 10px;
+    border-color: white;
 background-color:  white;
 
 }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 75%;
+      margin: auto;
+      height: 45%;
+     
+  }
+  
+  #myCarousel {
+  
+  float: right;
+    width: 650px; 
+    max-width: 650px;
+    height: auto;
+    top: -100;
+  margin-left: 400px;
+  margin-right:-150px;
+  
+  }
+
+
+
+
+
