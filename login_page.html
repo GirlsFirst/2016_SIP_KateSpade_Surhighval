@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Login </title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="surnew.css">
+
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+        <script>
+            var config = {
+    			apiKey: "AIzaSyCUUovEP7SCO5IlVT3srIcGVomGLpW0zGg",
+    			authDomain: "surhighval.firebaseapp.com",
+    			databaseURL: "https://surhighval.firebaseio.com",
+    			storageBucket: "surhighval.appspot.com",
+  				};
+  			firebase.initializeApp(config);
+        </script>
+	</head>
+	
+	
+	<body> 
+	
+	<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" rel="home" href="#" >
+                <img style="max-width:200px; margin-top: -25px;"
+                     src="web.png">
+            </a>
+        </div>
+        
+        <div id="navbar" class="collapse navbar-collapse navbar-responsive-collapse">
+        
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        
+                    </ul>
+                </li>
+            </ul>
+			<form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="">
+				<div class="form-group">
+					<input name="s" id="s" type="text" class="search-query form-control" autocomplete="off" placeholder="Search...">
+				</div>
+			</form>
+		</div>
+
+    </div>
+</div>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+	<div id = "account">
+		<h3 align="center"> Account Log In </h3>
+		<input id = "txtEmail" type = "email" placeholder = "Email">
+		
+		<input id = "txtPassword" type = "password" placeholder = "Password" > 
+		
+		<button id = "btnLogin" > Login </button> 
+		<button id = "btnSignUp" > Sign Up </button>
+		<button id = "btnLogout" style="display:block;">Logout</button>
+				
+	    <div id = "sign_up_form" style = "display:none;">
+	        <input id="my_name" placeholder="First_Name Last_Name">
+
+		    <button id = "more_info"> Add Info to My Account </button>
+	    </div>
+	</div>
+
+		<script src ="my_login.js"></script> <!-- you should put this script after all of the declarations of the buttons so that they are all declared -->
+	
+	</body> 
+</html>

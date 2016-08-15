@@ -48,12 +48,6 @@ color: black;
 }
 
 
-h1 {
-
-color: grey;
-font-family: 'Century Gothic';
-
-}
 
 
 #share-buttons {
@@ -143,15 +137,7 @@ hr {
   flex-direction: column;
   }
   
-  p {
-    margin: 0 30px 15px;
-    font-weight: 300;
-    color: #333;
-    word-wrap: break-word;
-    background-color: #FFF;
-    padding: 5px 10px;
-    
-}
+
 
 ul {
 	margin: 0 30px 15px;
@@ -213,19 +199,13 @@ text-align: center;
 
 }
 
-h2 {
-text-align: center;
-color: grey;
-font-family: 'Century Gothic';
-font-size: 30px;
-}
 
 
 
 /* Team */
 
 .team-member {
-    background: #fff;
+    background: #ffffff;
     text-align: center;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -235,7 +215,7 @@ font-size: 30px;
 }
 
 .team-member .team-photo {
-    background: #fff;
+    background: #ffffff;
     min-height: 200px;
     margin: 0 auto;
     padding: 24px 24px 32px 24px;
@@ -647,7 +627,7 @@ color: red;
 
 }
 
-.post .post-title
+.post, .post-title
 {
     display: table-cell;
     vertical-align: bottom;
@@ -663,3 +643,19 @@ margin-left: 825px;
 font-size: 50px;
 
 }
+
+
+
+h1 {
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+color: grey;
+text-align: center;
+}
+
+h2 {
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+p {
+font-family: "Arial";
+}
+
