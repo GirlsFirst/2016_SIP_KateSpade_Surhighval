@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
-
- 
- 
- <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<head>
+		<meta charset = "utf-8">
+		<title> Login </title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -15,9 +11,22 @@
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+<link rel="stylesheet" href="acc.css">
+
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+        <script>
+            var config = {
+    			apiKey: "AIzaSyCUUovEP7SCO5IlVT3srIcGVomGLpW0zGg",
+    			authDomain: "surhighval.firebaseapp.com",
+    			databaseURL: "https://surhighval.firebaseio.com",
+    			storageBucket: "surhighval.appspot.com",
+  				};
+  			firebase.initializeApp(config);
+        </script>
+	</head>
+	
+	
+	<body> 
 <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
 
@@ -34,7 +43,6 @@
             </a>
         </div>
         
-    
         <div id="navbar" class="collapse navbar-collapse navbar-responsive-collapse">
         
             <ul class="nav navbar-nav">
@@ -84,34 +92,32 @@
     </div>
 </div>
 
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
+	<div id = "account">
+		<h3 align="center"> Account Log In </h3>
+		<input id = "txtEmail" type = "email" placeholder = "Email">
+		
+		<input id = "txtPassword" type = "password" placeholder = "Password" > 
+		<br></br>
+		<button id = "btnLogin" > Login </button> 
+		<button id = "btnSignUp" > Sign Up </button>
+		<br></br>
+		<button id = "btnLogout" style="display:block;">Logout</button>
+		<br></br>
+	    <div id = "sign_up_form" style = "display:none;">
+	        <input id="my_name" placeholder="First_Name Last_Name">
+		<br></br>
+		    <button id = "more_info"> Add Info to My Account </button>
+	    </div>
+	</div>
 
-
-<br></br><br></br><br></br><br></br>
-
-
- <script src="fj.js"></script>
-  <div class="container">
-    <div class="comment-box">
-      <div class="comment-form">
-        <div class="header">Add A Story!</div>
-        <form action="#" onsubmit="event.preventDefault(); postComment()">
-          <div> 
-            <input type="text" id="name" placeholder="Name"/>
-          </div>
-          <div>
-            <textarea id="comment" rows="3" cols="30" placeholder="Comment"></textarea>
-          </div>
-          <button type="submit">COMMENT</button>
-        </form>  
-      </div>
-      <div>
-        <h4 class="header">Comments</h4>
-        <div id="comments"></div>
-      </div>
-      <!--<div class="footer"><hr><p1>&copy 2016 by Josh Bivens</p1></div>-->
-    </div>
-  </div>
-</body>
-
-<html>
+		<script src ="lpjs.js"></script> <!-- you should put this script after all of the declarations of the buttons so that they are all declared -->
+	
+	</body> 
+</html>

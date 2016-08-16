@@ -1,0 +1,146 @@
+.navbar-default {
+background-color: white;
+}
+
+
+.navbar-nav {
+padding-top: 50px;
+
+padding-bottom: 70px;
+}
+
+.navbar-brand {
+padding-top: 30px;
+
+padding-bottom: 55px;
+padding-left: 50px;
+
+ position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.navbar-right {
+
+padding-top: 60px;
+
+padding-bottom: 0px;
+}
+
+
+#ah {
+
+margin-top: 200px;
+}
+
+
+body {
+background-color: lightcyan;
+color: black;
+}
+
+
+#share-buttons {
+padding-right: 425px;
+float: right;
+
+}
+
+
+.webde {
+margin-top: 75px;
+text-align: center;
+float: left;
+color: black;
+font-size: 20px;
+font-family: 'Century Gothic';
+margin-left: 270px;
+margin-right: 350px;
+ border-style: solid;
+    border-width: 10px;
+    border-color: white;
+background-color:  white;
+
+}
+
+#btnLogin {
+    background-color: turquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align:center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    }
+
+#btnSignUp {
+    background-color: turquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align:center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+#btnLogout {
+    background-color: turquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align:center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#more_info {
+    background-color: turquoise; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align:center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin: 0 auto;
+    width: 150px;
+}
+
+#account {
+  padding: 50px;
+  max-width: 350px;
+  width: 50%;
+  background-color: #F7F7F7;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  font-family: roboto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -141px;
+  margin-left:-176px;
+  
+}
+
+h3 {font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif}
+
+#txtEmail {
+  font-family: "Arial";
+    }
+
+#txtPassword {
+font-family: "Arial";  
+}
+
+#my_name {font-family: "Arial"}
+
